@@ -9,8 +9,8 @@ body {
 }
 
 .background-image {
-    background: url("../images/background.jpg") no-repeat;
-    height: 70vh;
+    background: url("../images/cover.jpg") no-repeat;
+    height: 130vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,4 +21,19 @@ body {
     position: relative;
 }
 
+.web-text-hero {
+    color: #fafafa;
 
+}
+
+.footer-details {
+    background-color: rgb(228, 231, 211)
+}
+
+.gamer-tags li {
+    list-style-type: none;
+}
+
+.social-tags li {
+    list-style-type: none;
+}
