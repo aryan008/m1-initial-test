@@ -44,31 +44,69 @@
         </div>
     </section>
     <!--Footer-->
-    <footer>
+    <footer class = "container-fluid">
         <div class="row">
-            <div class="col-sm-4 inline-block footer-details">
-                <h3>Want to suggest a game to review/stream?</h3>
-                <h4>Any game</h4>
-                <p><strong>Playstation</strong></p>
-                <p><strong>Xbox</strong></p>
-                <p><strong>Nintendo Switch</strong></p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#recommendModal">Let me know!</a>
+            <div class="col-sm-4 inline-block mt-3">
+                <h4 class = "font-weight-bold">Want to suggest a game to review/stream?</h4>
+                <h5 class = "font-italic">Any game on the following platforms</h5>
+                <p class = "text-uppercase"><strong>Playstation</strong> <i class="fab fa-playstation" aria-hidden="true"></i></p>
+                <p class = "text-uppercase"><strong>Xbox</strong> <i class="fab fa-xbox" aria-hidden="true"></i></p>
+                <p class = "text-uppercase"><strong>Nintendo Switch</strong> <i class="fas fa-gamepad" aria-hidden="true"></i></p>
+                <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#recommendModal">Let me know!</a>
             </div>
-            <div class="col-sm-4 inline-block footer-details">
-                <h3>Add my gamer handle for multiplayer</h3>
-                <ul class = "gamer-tags">
-                    <li>Playstation: </li>
-                    <li>Xbox: </li>
-                    <li>Twitch: </li>
-                    <li>Youtube gaming: </li>
-                </ul>
+            <div class="col-sm-4 inline-block mt-3">
+                <h4 class = "font-weight-bold">Add my gamer handle!</h4>
+                    <div class = "console-details">
+                        <div class="gamer-handle">
+                            <div class = "console-platform">
+                                <p class = "text-uppercase font-weight-bold">
+                                    PS Plus+:
+                                </p>
+                            </div>
+                            <div class = "console-id">
+                                <p class = "font-italic">
+                                    ice_cream_scone
+                                </p>
+                            </div>
+                        </div>
+                        <div class="gamer-handle">
+                            <div class = "console-platform">
+                                <p class = "text-uppercase font-weight-bold">
+                                    Xbox Live:
+                                </p>
+                            </div>
+                            <div class = "console-id">
+                                <p class = "font-italic">
+                                    funky_monkey29
+                                </p>
+                            </div>
+                        </div>
+                        <div class="gamer-handle">
+                            <div class = "console-platform">
+                                <p class = "text-uppercase font-weight-bold">
+                                    Nintendo:
+                                </p>
+                            </div>
+                            <div class = "console-id">
+                                <p class = "font-italic">
+                                    all_the_coins10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div class = "col-sm-4 inline-block footer-details">
-                <h3>Social</h3>
-                <ul class = "social-tags">
-                    <li><a href = "https://www.instagram.com" class = "social-icon" target = "_blank"><i class = "fab fa-instagram"></i></a></li>
-                    <li><a href = "https://www.twitter.com" class = "social-icon" target = "_blank"><i class = "fab fa-twitter"></i></a></li>
-                    <li><a href = "https://www.youtube.com" class = "social-icon" target = "_blank"><i class = "fab fa-youtube"></i></a></li>
+            <div class = "col-sm-4 inline-block mt-3">
+                <h4 class = "font-weight-bold">Social</h4>
+                <ul class = "list-inline social-tags">
+                    <li class = "list-inline-item">
+                        <a href = "https://www.instagram.com" class = "social-icon" target = "_blank"><i class = "fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                    </li>
+                    <li class = "list-inline-item">
+                        <a href = "https://www.twitter.com" class = "social-icon" target = "_blank"><i class = "fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+                    </li>
+                    <li class = "list-inline-item">
+                        <a href = "https://www.youtube.com" class = "social-icon" target = "_blank"><i class = "fab fa-youtube" aria-hidden="true"></i><span class="sr-only">Youtube</span></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -94,15 +132,15 @@
                         <p>Select the platform</p>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="playstationRadio" id="playstationRadio" value="option1">
-                            <label class="form-check-label" for="playstationRadio">Playstation <i class="fab fa-playstation"></i></label>
+                            <label class="form-check-label" for="playstationRadio">Playstation <i class="fab fa-playstation" aria-hidden="true"></i></label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="xboxRadio" id="xboxRadio" value="option2">
-                            <label class="form-check-label" for="xboxRadio">Xbox <i class="fab fa-xbox"></i></label>
+                            <label class="form-check-label" for="xboxRadio">Xbox <i class="fab fa-xbox" aria-hidden="true"></i></label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="switchRadio" id="switchRadio" value="option3">
-                            <label class="form-check-label" for="switchRadio">Nintendo Switch <i class="fas fa-gamepad"></i></label>
+                            <label class="form-check-label" for="switchRadio">Nintendo Switch <i class="fas fa-gamepad" aria-hidden="true"></i></label>
                         </div>
                     </div>
 
