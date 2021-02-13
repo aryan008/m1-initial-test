@@ -11,7 +11,7 @@ header, body {
 }
 
 header {
-  background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
+  background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 .navbar-style {
-  background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
+  background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
 }
 
 .suggest-text {
@@ -57,11 +57,12 @@ header {
 
 .web-text-hero {
     color: #fafafa;
+    width: 200px;
     font-size: 30px;
     padding: 10px 10px;
     border: 2px ridge #fafafa;
     display: inline-block;
-    background: rgba(243, 78, 78, 0.6);
+    background: rgba(15, 14, 14, 0.6);
 }
 
 .jumbotron {
@@ -71,7 +72,46 @@ header {
 footer {
     min-height: 120px;
     padding: 10px 15px;
-    background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
+    background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
+    color: #fafafa;
+}
+
+.icon-playstation {
+    font-size: 22px;
+    color: #DF0024;
+}
+
+.icon-xbox {
+    font-size: 22px;
+    color: #0e7a0d;
+}
+
+.icon-switch {
+    font-size: 22px;
+    color: #e08712;
+}
+
+.suggestion {
+    background-color: #0c0b0b;
+    border: 2px solid;
+}
+
+.modal-content {
+    border: 2px solid #fafafa;
+}
+
+.modal-header, .modal-title {
+    background-color: #0c0b0b;
+}
+
+.modal-title {
+    color: #fafafa;
+}
+
+form {
+    width: 100%;
+    padding: 15px;
+    background-color: #0c0b0b;
     color: #fafafa;
 }
 
@@ -92,7 +132,7 @@ footer {
 
 .gamer-handle .console-platform {
     width: 30%;
-    margin-right: 10px;
+    margin-right: 5px;
     padding-top: 5px;
     vertical-align: top;
 }
@@ -104,7 +144,7 @@ footer {
 .gamer-handle .console-id {
     position: relative;
     width: 40%;
-    margin-right: 10px;
+    margin-left: 10px;
     padding-top: 5px;
 }
 
@@ -124,7 +164,23 @@ footer {
     float: left;
     padding: 16px 0;
     color: #fafafa;
-    background: #8f8f8f;
+    
+}
+
+.social-instagram {
+    background: #e1306c;
+}
+
+.social-twitter {
+    background: #00acee;
+}
+
+.social-youtube {
+    background: #FF0000;
+}
+
+.social-twitch {
+    background: #9147ff;
 }
 
 
