@@ -11,7 +11,7 @@ header, body {
 }
 
 header {
-  background: linear-gradient(to right bottom, #3886fc, #b5cef5);
+  background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
   display: flex;
   align-items: center;
 }
@@ -20,15 +20,21 @@ header {
     text-decoration: underline;
 }
 
-.navbar-style {
-  background: linear-gradient(to right bottom, #3886fc, #b5cef5);
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    z-index: 1;
 }
 
-.navbar-style a {
+.navbar-style {
+  background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
+}
+
+.suggest-text {
+    list-style-type: none;
     color: #fafafa;
 }
-
-
 
 
 .background-image {
@@ -44,15 +50,28 @@ header {
     position: relative;
 }
 
+.web-text-place {
+    text-align: center;
+    top: 5px;
+}
+
 .web-text-hero {
     color: #fafafa;
+    font-size: 30px;
+    padding: 10px 10px;
+    border: 2px ridge #fafafa;
+    display: inline-block;
+    background: rgba(243, 78, 78, 0.6);
+}
+
+.jumbotron {
+    background-color: transparent;
 }
 
 footer {
     min-height: 120px;
-    margin: 5px;
     padding: 10px 15px;
-    background: linear-gradient(to right bottom, #3886fc, #b5cef5);
+    background: linear-gradient(to right bottom, #ff0f0fb0, #fd9f9ffa);
     color: #fafafa;
 }
 
