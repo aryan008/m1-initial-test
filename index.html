@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Game review</title>
 </head>
-<body>
+    <header>
     <!--Header navigation-->
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Game Review</a>
+            <nav class="navbar navbar-expand-lg bg-light navbar-style">
+                <a class="navbar-brand text-uppercase" href="#">Game Review</a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,10 +31,12 @@
                     </ul>
                 </div>
                 <div class="d-none d-md-block">
-                    <a class="nav-link" href = "#" data-toggle="modal" data-target="#recommendModal">Suggest a game to review/stream</a>
+                    <a class="nav-link active" href = "#" data-toggle="modal" data-target="#recommendModal">Suggest a game to review/stream</a>
                 </div>
             </nav>
         </div>
+    </header>
+<body>
     <!--Background image-->
     <section>
         <div class = "background-image">
@@ -48,7 +50,7 @@
         <div class="row">
             <div class="col-sm-4 inline-block mt-3">
                 <h4 class = "font-weight-bold">Want to suggest a game to review/stream?</h4>
-                <h5 class = "font-italic">Any game on the following platforms</h5>
+                <h6 class = "font-italic">Any game on the following platforms</h6>
                 <p class = "text-uppercase"><strong>Playstation</strong> <i class="fab fa-playstation" aria-hidden="true"></i></p>
                 <p class = "text-uppercase"><strong>Xbox</strong> <i class="fab fa-xbox" aria-hidden="true"></i></p>
                 <p class = "text-uppercase"><strong>Nintendo Switch</strong> <i class="fas fa-gamepad" aria-hidden="true"></i></p>
@@ -98,7 +100,7 @@
             <div class = "col-sm-4 inline-block mt-3">
                 <h4 class = "font-weight-bold">Social</h4>
                 <ul class = "list-inline social-tags">
-                    <li class = "list-inline-item">
+                    <li class = "list-inline-item social-instagram">
                         <a href = "https://www.instagram.com" class = "social-icon" target = "_blank"><i class = "fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
                     </li>
                     <li class = "list-inline-item">
@@ -129,7 +131,7 @@
                     </div>
 
                     <div>
-                        <p>Select the platform</p>
+                        <p>Select the platform(s)</p>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="playstationRadio" id="playstationRadio" value="option1">
                             <label class="form-check-label" for="playstationRadio">Playstation <i class="fab fa-playstation" aria-hidden="true"></i></label>
