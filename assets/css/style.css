@@ -36,7 +36,6 @@ header {
     color: #fafafa;
 }
 
-
 .background-image {
     background: url("../images/controller.jpg") no-repeat;
     height: 90vh;
@@ -164,7 +163,6 @@ form {
     float: left;
     padding: 16px 0;
     color: #fafafa;
-    
 }
 
 .social-follow {
@@ -187,4 +185,19 @@ form {
     background: #9147ff;
 }
 
+.social-instagram:hover {
+    background: rgba(235, 5, 204, 0.5);
+}
+
+.social-twitter:hover {
+    background: rgba(5, 59, 235, 0.5);
+}
+
+.social-youtube:hover {
+    background: rgba(245, 21, 21, 0.5);
+}
+
+.social-twitch:hover {
+    background: rgba(214, 3, 186, 0.5);
+}
 
