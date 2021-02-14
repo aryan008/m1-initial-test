@@ -71,7 +71,7 @@ header {
 footer {
     min-height: 120px;
     padding: 10px 15px;
-    background: linear-gradient(180deg, #000000, #686767fa);
+    background: linear-gradient(180deg, #686767fa, #000000);
     color: #fafafa;
 }
 
@@ -219,22 +219,42 @@ form {
 .stream-info-game-one, 
 .stream-info-game-two,
 .stream-info-game-three {
-    display: inline-block;
-    clear: both;
-    padding: 5px 15px;
+    margin: 10px;
+    padding: 10px 15px;
     color: #fafafa;
+    font-size: 14px;
+}
+
+.stream-info-game-one {
+    display: inline-table;
+}
+
+.stream-info-game-two {
+    display: inline-table;
+}
+
+.stream-info-game-three {
+    display: inline-table;
 }
 
 .stream-info-date {
     font-weight: 700;
+    margin-right: 5px;
 }
 
 .stream-info-game {
     font-weight: 400;
+    font-size: 18px;
+    margin-right: 5px;
 }
 
 .stream-info-time {
     font-weight: 700;
+    margin-right: 5px;
+}
+
+.stream-info-platform {
+    font-size: 30px;
 }
 
 
