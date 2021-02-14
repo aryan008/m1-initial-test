@@ -207,3 +207,36 @@ form {
     background: rgba(214, 3, 186, 0.5);
 }
 
+.streams-playing {
+    background: linear-gradient(180deg, #000000, #686767fa);
+}
+
+.streams-heading {
+    color: #fafafa;
+    padding: 10px 15px;
+}
+
+.stream-info-game-one, 
+.stream-info-game-two,
+.stream-info-game-three {
+    display: inline-block;
+    clear: both;
+    padding: 5px 15px;
+    color: #fafafa;
+}
+
+.stream-info-date {
+    font-weight: 700;
+}
+
+.stream-info-game {
+    font-weight: 400;
+}
+
+.stream-info-time {
+    font-weight: 700;
+}
+
+
+
+
