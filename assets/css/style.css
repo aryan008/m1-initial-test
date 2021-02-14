@@ -11,7 +11,7 @@ header, body {
 }
 
 header {
-  background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
+  background: linear-gradient(to bottom, #686767fa, #000000);
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 .navbar-style {
-  background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
+  background: linear-gradient(to bottom, #686767fa, #000000);
 }
 
 .suggest-text {
@@ -71,7 +71,7 @@ header {
 footer {
     min-height: 120px;
     padding: 10px 15px;
-    background: linear-gradient(to right bottom, #0c0b0b, #686767fa);
+    background: linear-gradient(180deg, #000000, #686767fa);
     color: #fafafa;
 }
 
@@ -91,7 +91,7 @@ footer {
 }
 
 .suggestion {
-    background-color: #0c0b0b;
+    background-color: #000000;
     border: 2px solid;
 }
 
@@ -170,7 +170,9 @@ form {
 }
 
 .social-instagram {
-    background: #e1306c;
+    background: linear-gradient(210deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70%),
+                linear-gradient(127deg, rgba(229, 9, 236, 0.8), rgba(229, 9, 236,0) 70%),
+                linear-gradient(300deg, rgba(247, 144, 85, 0.8), rgba(247, 144, 85,0) 70%);
 }
 
 .social-twitter {
