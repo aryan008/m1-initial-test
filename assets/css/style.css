@@ -211,9 +211,15 @@ form {
     background: linear-gradient(180deg, #000000, #686767fa);
 }
 
+.streams-info {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
 .streams-heading {
     color: #fafafa;
     padding: 10px 15px;
+    text-align: center;
 }
 
 .stream-info-game-one, 
