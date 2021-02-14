@@ -77,7 +77,7 @@ footer {
 
 .icon-playstation {
     font-size: 22px;
-    color: #DF0024;
+    color: rgb(243, 40, 74);
 }
 
 .icon-xbox {
@@ -209,7 +209,7 @@ form {
 
 .streams-playing {
     background: linear-gradient(180deg, #000000, #686767fa);
-    width: 40%;
+    width: 30%;
 }
 
 .streams-heading {
@@ -227,8 +227,15 @@ form {
 .streams-info th, .streams-info td {
     color: #fafafa;
     text-align: center;
+    vertical-align: middle;
 }
 
 .streams-info td {
-    font-size: 10px;
+    font-size: 16px;
+}
+
+.table-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
