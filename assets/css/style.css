@@ -209,11 +209,7 @@ form {
 
 .streams-playing {
     background: linear-gradient(180deg, #000000, #686767fa);
-}
-
-.streams-info {
-    margin-top: 30px;
-    margin-left: 15px;
+    width: 40%;
 }
 
 .streams-heading {
@@ -222,47 +218,17 @@ form {
     text-align: center;
 }
 
-.stream-info-game-one, 
-.stream-info-game-two,
-.stream-info-game-three {
-    margin: 10px;
-    padding: 10px 15px;
+.streams-info {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.streams-info th, .streams-info td {
     color: #fafafa;
-    font-size: 14px;
+    text-align: center;
 }
 
-.stream-info-game-one {
-    display: inline-table;
+.streams-info td {
+    font-size: 10px;
 }
-
-.stream-info-game-two {
-    display: inline-table;
-}
-
-.stream-info-game-three {
-    display: inline-table;
-}
-
-.stream-info-date {
-    font-weight: 700;
-    margin-right: 5px;
-}
-
-.stream-info-game {
-    font-weight: 400;
-    font-size: 18px;
-    margin-right: 5px;
-}
-
-.stream-info-time {
-    font-weight: 700;
-    margin-right: 5px;
-}
-
-.stream-info-platform {
-    font-size: 30px;
-}
-
-
-
-
