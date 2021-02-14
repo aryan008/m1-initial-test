@@ -114,6 +114,10 @@ form {
     color: #fafafa;
 }
 
+.close {
+    color: #fafafa; 
+}
+
 .gamer-handle {
     display: block;
     clear: both;
