@@ -265,6 +265,12 @@ form {
     width: 50%;
 }
 
+.controller {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+}
+
 .playing-heading {
     color: #fafafa;
     padding: 15px 15px;
