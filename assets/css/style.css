@@ -234,6 +234,7 @@ form {
     color: #fafafa;
     text-align: center;
     vertical-align: middle;
+    white-space: nowrap;
 }
 
 .streams-info td {
@@ -261,7 +262,7 @@ form {
 /*-playing*/
 
 .playing {
-    width: 60%;
+    width: 50%;
 }
 
 .playing-heading {
@@ -280,6 +281,7 @@ form {
     color: #fafafa;
     text-align: center;
     vertical-align: middle;
+    white-space: nowrap;
 }
 
 .playing-info td {
