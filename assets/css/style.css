@@ -246,6 +246,18 @@ form {
     border-radius: 50%;
 }
 
+.sims-image {
+    box-shadow: 6px 6px 20px rgba(25, 212, 25, 0.877);
+}
+
+.lou-image {
+    box-shadow: 6px 6px 20px rgba(182, 23, 12, 0.877);
+}
+
+.ac-image {
+    box-shadow: 6px 6px 20px rgba(29, 124, 248, 0.877);
+}
+
 /*-playing*/
 
 .playing {
@@ -279,3 +291,16 @@ form {
     height: 100px;
     border-radius: 50%;
 }
+
+.sackboy-image {
+    box-shadow: 6px 6px 20px rgba(212, 25, 212, 0.877);
+}
+
+.spider-image {
+    box-shadow: 6px 6px 20px rgba(241, 100, 90, 0.877);
+}
+
+.cyber-image {
+    box-shadow: 6px 6px 20px rgba(252, 255, 55, 0.877);
+}
+
