@@ -209,6 +209,10 @@ form {
 
 .streams-playing {
     background: linear-gradient(180deg, #000000, #686767fa);
+    width:100%;
+}
+
+.streams-upcoming {
     width: 30%;
 }
 
@@ -234,7 +238,42 @@ form {
     font-size: 16px;
 }
 
-.table-image {
+.table-streams-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/*-playing*/
+
+.playing {
+    width: 70%;
+    
+}
+
+.playing-heading {
+    color: #fafafa;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.playing-info {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.playing-info th, .playing-info td {
+    color: #fafafa;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.playing-info td {
+    font-size: 16px;
+}
+
+.table-playing-image {
     width: 70px;
     height: 70px;
     border-radius: 50%;
