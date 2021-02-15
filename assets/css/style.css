@@ -212,8 +212,10 @@ form {
     width:100%;
 }
 
+/*-streams*/
+
 .streams-upcoming {
-    width: 30%;
+    width: 40%;
 }
 
 .streams-heading {
@@ -239,16 +241,15 @@ form {
 }
 
 .table-streams-image {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
 /*-playing*/
 
 .playing {
-    width: 70%;
-    
+    width: 60%;
 }
 
 .playing-heading {
@@ -274,7 +275,7 @@ form {
 }
 
 .table-playing-image {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
