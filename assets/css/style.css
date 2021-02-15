@@ -211,13 +211,10 @@ form {
 .streams-playing {
     background: linear-gradient(180deg, #000000, #686767fa);
     width:100%;
+    display: flexbox;
 }
 
 /*-streams*/
-
-.streams-upcoming {
-    width: 40%;
-}
 
 .streams-heading {
     color: #fafafa;
@@ -262,9 +259,7 @@ form {
 
 /*-playing*/
 
-.playing {
-    width: 50%;
-}
+
 
 .controller {
     height: 38px;
